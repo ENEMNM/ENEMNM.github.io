@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+* {
+}
+
+html, body {
+margin: 0; 
+}
+
+#remote-controller {
+    z-index: 100;
+    position: absolute;
+    
+    
+    background: url('remote.png');
+    width: 139px;
+    height: 176px;
+    right: 5rem;
+    top: 35rem;
+}
+
+#remote-controller > ul {
+    margin-top: 35px;
+    margin-left: -15px;
+    list-style:none;
+}
+
+#remote-controller > ul > li, a {
+    margin-top: 13px;
+    font-size: 15px;
+    font-family: "나눔고딕", sans-serif;
+    
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+
+#remote-controller > a:hover {
+    text-decoration: none;
+    color: #4d4d4d;
+}
